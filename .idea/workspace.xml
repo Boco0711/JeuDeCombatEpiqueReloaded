@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d935937a-16fc-434b-8849-ac8292c885a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Prowler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Warrior.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Game.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Tools.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/com/ocr/sylvain/CharacterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeuDeCombatEpiqueReloaded.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JeuDeCombatEpiqueReloaded.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/sylvain/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -284,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568138404927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fichier xml">
+      <created>1568186557059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568186557059</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Déplacement de la classe Character dans un package a part contenant également ses enfants Mage, Prowler et Warrior&#10;Constructeur avec super des enfants de Character">
+      <created>1568186687782</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568186687782</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -348,7 +356,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creation du projet JeuDeCombatEpique apres echec du premier essais" />
     <MESSAGE value="Ajout du plan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du plan" />
+    <MESSAGE value="Fichier xml" />
+    <MESSAGE value="Déplacement de la classe Character dans un package a part contenant également ses enfants Mage, Prowler et Warrior&#10;Constructeur avec super des enfants de Character" />
+    <option name="LAST_COMMIT_MESSAGE" value="Déplacement de la classe Character dans un package a part contenant également ses enfants Mage, Prowler et Warrior&#10;Constructeur avec super des enfants de Character" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Plan.txt">
