@@ -72,5 +72,17 @@ class ToolsTest {
         assertEquals(75, result);
     }
 
-
+    @Test
+    public void Given_MultipleBadValue_When_AskSomethingIsRun_Then_SendErrorAndReAsk() {
+        System.setIn(new ByteArrayInputStream("0\n105\n51\n".getBytes()));
+        int min = 1;
+        int max = 100;
+        int result = Tools.askSomething(question, error, min, max);
+        String[] output = outContent.toString().replace("\r\n", "\n").split("\n");
+        assertEquals(error, output[1]);
+        assertEquals(question, output[2]);
+        assertEquals(error, output[3]);
+        assertEquals(question, output[4]);
+        assertEquals(51, result);
+    }
 }
