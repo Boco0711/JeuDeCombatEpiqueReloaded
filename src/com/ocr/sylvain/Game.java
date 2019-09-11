@@ -20,6 +20,11 @@ public class Game {
         }
     }
 
+    /**
+     * Display a question, get the result by askSomething, and create a Warrior, Prowler or Mage depending on the choice
+     * @param name the name of the Character
+     * @return Character(Warrior or Mage or Prowler)
+     */
     private Character roleSelect(String name) {
         System.out.println("Création du personnage du " + name);
         String question = "Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rodeur; 3 : Mage)";
@@ -43,6 +48,11 @@ public class Game {
         return character;
     }
 
+    /**
+     * A loop that last as long as both Character are alive
+     * It display a question about the comp to use one player after the other.
+     * Depending on choice it call basicAttack() or specialAttack()
+     */
     public void Combat() {
         boolean bothAlive = true;
         while (bothAlive) {

@@ -20,12 +20,23 @@ public class Character {
         this.appearance();
     }
 
+    /**
+     * méthod is using askSomething() in Tools class to get an in to return.
+     *
+     * @param toAsk The stats that is asked
+     * @param min minimum value for the stat
+     * @param max maximum value for the stat
+     * @return the stat with correct value
+     */
     private int askStats(String toAsk, int min, int max) {
         String error = toAsk + " doit être compris entre " + min + " et " + max;
         String question = toAsk + " du personnage?";
         return Tools.askSomething(question, error, min, max);
     }
 
+    /**
+     * Display a text with the value of character
+     */
     public void appearance() {
         System.out.println( this.name + " niveau " + this.level + " je possède " +
                 this.vitality + " de vitalité, " +
@@ -34,12 +45,25 @@ public class Character {
                 this.intelligence + " d'intelligence !");
     }
 
+    /**
+     * this method is just meant to be overrided in Mage, Prowler or Warrior
+     * @param character is the opponent character.
+     */
     public void basicAttack(Character character){
     }
 
+    /**
+     * this method is just meant to be overrided in Mage, Prowler or Warrior.
+     * @param character is the opponent character.
+     */
     public void specialAttack(Character character){
     }
 
+    /**
+     * receive a number and reduce vitality of this character for that number
+     * If vitality is under or equal 0 this character is dead.
+     * @param damages number received
+     */
     protected void takeDamages(int damages) {
         System.out.println(this.name + " perd " + damages + " points de vie");
         this.vitality -= damages;
@@ -49,10 +73,19 @@ public class Character {
         }
     }
 
+    /**
+     * Receive a number and add that number to the current amount of agility
+     * @param gain number received
+     */
     protected void gainAgility(int gain) {
         this.agility += gain;
     }
 
+    /**
+     * Receive a number and add that number to the current amount of vitality
+     * Vitality can never be higher then level * 5
+     * @param gain number received
+     */
     protected void gainHp(int gain) {
         if (this.vitality + gain > this.level * 5)
             gain = this.level*5 - this.vitality;
