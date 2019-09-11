@@ -17,11 +17,20 @@ public class Character {
         this.strenght = askStats("Force", 0, this.level);
         this.agility = askStats("Agilité", 0, (this.level-this.strenght));
         this.intelligence = askStats("Intelligence", 0, (this.level - (this.strenght+this.agility)));
+        this.appearance();
     }
 
     private int askStats(String toAsk, int min, int max) {
         String error = toAsk + " doit être compris entre " + min + " et " + max;
         return Tools.askSomething(error, toAsk, min, max);
+    }
+
+    public void appearance() {
+        System.out.println( this.name + " niveau " + this.level + " je possède " +
+                this.vitality + " de vitalité, " +
+                this.strenght + " de force, " +
+                this.agility + "d'agilité et " +
+                this.intelligence + " d'intelligence !");
     }
 
     public String getName() {
