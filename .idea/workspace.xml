@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d935937a-16fc-434b-8849-ac8292c885a1" name="Default Changelist" comment="Déplacement de la classe Character dans un package a part contenant également ses enfants Mage, Prowler et Warrior&#10;Constructeur avec super des enfants de Character">
+    <list default="true" id="d935937a-16fc-434b-8849-ac8292c885a1" name="Default Changelist" comment="Ajout">
       <change afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java" afterDir="false" />
@@ -23,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -36,24 +36,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="637">
+              <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
               <folding>
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#1714#1715#0" expanded="true" />
+                <element signature="e#1750#1751#0" expanded="true" />
+                <element signature="e#1706#1707#0" expanded="true" />
+                <element signature="e#1738#1739#0" expanded="true" />
+                <element signature="e#1767#1768#0" expanded="true" />
+                <element signature="e#1800#1801#0" expanded="true" />
+                <element signature="e#1832#1833#0" expanded="true" />
+                <element signature="e#1868#1869#0" expanded="true" />
+                <element signature="e#1900#1901#0" expanded="true" />
+                <element signature="e#1936#1937#0" expanded="true" />
+                <element signature="e#1967#1968#0" expanded="true" />
+                <element signature="e#2002#2003#0" expanded="true" />
+                <element signature="e#2038#2039#0" expanded="true" />
+                <element signature="e#2078#2079#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            <state relative-caret-position="323">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="e#188#189#0" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
@@ -75,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Prowler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="22" selection-end-column="51" />
               <folding>
                 <element signature="e#108#109#0" expanded="true" />
                 <element signature="e#135#136#0" expanded="true" />
@@ -88,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+            <state relative-caret-position="425">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="e#102#103#0" expanded="true" />
                 <element signature="e#129#130#0" expanded="true" />
@@ -160,10 +162,10 @@
         <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Tools.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Game.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Warrior.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Prowler.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java" />
       </list>
     </option>
   </component>
@@ -394,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568189864145</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="AskStats n'affichais pas les phrases dans le bon ordre,&#10;Override de Appearance() dans Mage Prowler et  Warrior">
+      <created>1568191253446</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1568191253446</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -490,7 +499,8 @@
     <MESSAGE value="Création de la méthode AskSomething et mise au vert des tests" />
     <MESSAGE value="Méthode askStats ajouté dans Character pour l'initialisation des statistiques" />
     <MESSAGE value="Méthode appearance qui génère le message d'apparition du personnage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Méthode appearance qui génère le message d'apparition du personnage" />
+    <MESSAGE value="AskStats n'affichais pas les phrases dans le bon ordre,&#10;Override de Appearance() dans Mage Prowler et  Warrior" />
+    <option name="LAST_COMMIT_MESSAGE" value="AskStats n'affichais pas les phrases dans le bon ordre,&#10;Override de Appearance() dans Mage Prowler et  Warrior" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Plan.txt">
@@ -543,42 +553,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Warrior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        <state relative-caret-position="425">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="e#102#103#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
@@ -588,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Prowler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="22" selection-end-column="51" />
           <folding>
             <element signature="e#108#109#0" expanded="true" />
             <element signature="e#135#136#0" expanded="true" />
@@ -597,13 +586,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Warrior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+          <folding>
+            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1738#1739#0" expanded="true" />
+            <element signature="e#1767#1768#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#1900#1901#0" expanded="true" />
+            <element signature="e#1936#1937#0" expanded="true" />
+            <element signature="e#1967#1968#0" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2078#2079#0" expanded="true" />
           </folding>
         </state>
       </provider>

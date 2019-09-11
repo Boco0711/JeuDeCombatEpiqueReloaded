@@ -34,6 +34,31 @@ public class Character {
                 this.intelligence + " d'intelligence !");
     }
 
+    public void basicAttack(Character character){
+    }
+
+    public void specialAttack(Character character){
+    }
+
+    protected void takeDamages(int damages) {
+        System.out.println(this.name + " perd " + damages + " points de vie");
+        this.vitality -= damages;
+        if(this.vitality <= 0) {
+            this.vitality = 0;
+            System.out.println(this.name + " est mort");
+        }
+    }
+
+    protected void gainAgility(int gain) {
+        this.agility += gain;
+    }
+
+    protected void gainHp(int gain) {
+        this.vitality += gain;
+        if (this.vitality > this.level * 5)
+            this.vitality = this.level *5;
+    }
+
     public String getName() {
         return this.name;
     }
