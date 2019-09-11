@@ -42,4 +42,32 @@ public class Game {
         }
         return character;
     }
+
+    public void Combat() {
+        boolean bothAlive = true;
+        while (bothAlive) {
+            for (int i = 0; i < this.players.length; i++) {
+                String question = this.players[i].getName() + " (" + this.players[i].getVitality() + ") veuillez choisir votre action (1 : Attaque basique, 2 : Attaque Spéciale)";
+                String error = "Votre choix n'est pas valide veuillez choisir 1 ou 2";
+                int choice = Tools.askSomething(question, error, 1, 2);
+                switch (choice) {
+                    case 1:
+                        this.players[i].basicAttack(players[i == 0 ? 1 : 0]);
+                        break;
+                    case 2:
+                        this.players[i].specialAttack(players[i == 0 ? 1 : 0]);
+                        break;
+                }
+                if (this.players[0].getVitality() <= 0) {
+                    System.out.println(this.players[0].getName() + " a perdu !");
+                    bothAlive = false;
+                    break;
+                } else if (this.players[1].getVitality() <= 0) {
+                    System.out.println(this.players[1].getName() + " a perdu !");
+                    bothAlive = false;
+                    break;
+                }
+            }
+        }
+    }
 }
