@@ -30,18 +30,20 @@ class ToolsTest {
     @Test
     public void Given_GoodValue_When_AskSomethingIsRun_Then_ReturnCorrectResult() {
         System.setIn(new ByteArrayInputStream("1\n".getBytes()));
+        Tools tools = new Tools();
         int min = 1;
         int max = 100;
-        int result = Tools.askSomething(question, error, min, max);
+        int result = tools.askSomething(question, error, min, max);
         assertEquals(1, result);
     }
 
     @Test
     public void Given_TooHighValue_When_AskSomethingIsRun_Then_SendErrorAndReAsk() {
         System.setIn(new ByteArrayInputStream("101\n5\n".getBytes()));
+        Tools tools = new Tools();
         int min = 1;
         int max = 100;
-        int result = Tools.askSomething(question, error, min, max);
+        int result = tools.askSomething(question, error, min, max);
         String[] output = outContent.toString().replace("\r\n", "\n").split("\n");
         assertEquals(error, output[1]);
         assertEquals(question, output[2]);
@@ -51,9 +53,10 @@ class ToolsTest {
     @Test
     public void Given_TooLowValue_When_AskSomethingIsRun_Then_SendErrorAndReAsk() {
         System.setIn(new ByteArrayInputStream("0\n51\n".getBytes()));
+        Tools tools = new Tools();
         int min = 1;
         int max = 100;
-        int result = Tools.askSomething(question, error, min, max);
+        int result = tools.askSomething(question, error, min, max);
         String[] output = outContent.toString().replace("\r\n", "\n").split("\n");
         assertEquals(error, output[1]);
         assertEquals(question, output[2]);
@@ -63,9 +66,10 @@ class ToolsTest {
     @Test
     public void Given_Text_When_AskSomethingIsRun_Then_SendErrorAndReAsk() {
         System.setIn(new ByteArrayInputStream("Toto\n75\n".getBytes()));
+        Tools tools = new Tools();
         int min = 1;
         int max = 100;
-        int result = Tools.askSomething(question, error, min, max);
+        int result = tools.askSomething(question, error, min, max);
         String[] output = outContent.toString().replace("\r\n", "\n").split("\n");
         assertEquals(error, output[1]);
         assertEquals(question, output[2]);
@@ -75,9 +79,10 @@ class ToolsTest {
     @Test
     public void Given_MultipleBadValue_When_AskSomethingIsRun_Then_SendErrorAndReAsk() {
         System.setIn(new ByteArrayInputStream("0\n105\n51\n".getBytes()));
+        Tools tools = new Tools();
         int min = 1;
         int max = 100;
-        int result = Tools.askSomething(question, error, min, max);
+        int result = tools.askSomething(question, error, min, max);
         String[] output = outContent.toString().replace("\r\n", "\n").split("\n");
         assertEquals(error, output[1]);
         assertEquals(question, output[2]);

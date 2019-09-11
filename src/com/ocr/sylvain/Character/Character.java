@@ -10,6 +10,8 @@ public class Character {
     private int agility;
     private int intelligence;
 
+    Tools tools = new Tools();
+
     public Character(String name){
         this.name = name;
         this.level = askStats("Niveau", 1, 100);
@@ -31,7 +33,7 @@ public class Character {
     private int askStats(String toAsk, int min, int max) {
         String error = toAsk + " doit être compris entre " + min + " et " + max;
         String question = toAsk + " du personnage?";
-        return Tools.askSomething(question, error, min, max);
+        return tools.askSomething(question, error, min, max);
     }
 
     /**

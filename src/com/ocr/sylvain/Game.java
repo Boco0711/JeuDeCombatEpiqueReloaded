@@ -31,7 +31,8 @@ public class Game {
         String error = "Vous n'avez pas choisi de classe parmi les choix proposés";
         int min = 1;
         int max = 3;
-        int choix = Tools.askSomething(question, error, min, max);
+        Tools tools = new Tools();
+        int choix = tools.askSomething(question, error, min, max);
 
         Character character = null;
         switch (choix) {
@@ -55,11 +56,12 @@ public class Game {
      */
     public void Combat() {
         boolean bothAlive = true;
+        Tools tools = new Tools();
         while (bothAlive) {
             for (int i = 0; i < this.players.length; i++) {
                 String question = this.players[i].getName() + " (" + this.players[i].getVitality() + ") veuillez choisir votre action (1 : Attaque basique, 2 : Attaque Spéciale)";
                 String error = "Votre choix n'est pas valide veuillez choisir 1 ou 2";
-                int choice = Tools.askSomething(question, error, 1, 2);
+                int choice = tools.askSomething(question, error, 1, 2);
                 switch (choice) {
                     case 1:
                         this.players[i].basicAttack(players[i == 0 ? 1 : 0]);
