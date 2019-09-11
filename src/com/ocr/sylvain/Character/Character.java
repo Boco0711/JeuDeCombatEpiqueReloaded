@@ -22,14 +22,15 @@ public class Character {
 
     private int askStats(String toAsk, int min, int max) {
         String error = toAsk + " doit être compris entre " + min + " et " + max;
-        return Tools.askSomething(error, toAsk, min, max);
+        String question = toAsk + " du personnage?";
+        return Tools.askSomething(question, error, min, max);
     }
 
     public void appearance() {
         System.out.println( this.name + " niveau " + this.level + " je possède " +
                 this.vitality + " de vitalité, " +
                 this.strenght + " de force, " +
-                this.agility + "d'agilité et " +
+                this.agility + " d'agilité et " +
                 this.intelligence + " d'intelligence !");
     }
 

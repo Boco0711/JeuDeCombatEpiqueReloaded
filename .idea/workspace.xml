@@ -5,6 +5,10 @@
       <change afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Prowler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Prowler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/sylvain/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/sylvain/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="85">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding>
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+            <state relative-caret-position="493">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding>
                 <element signature="e#246#247#0" expanded="true" />
                 <element signature="e#273#274#0" expanded="true" />
@@ -52,35 +60,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-              <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Prowler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-              <folding>
-                <element signature="e#135#136#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="170">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
               <folding>
                 <element signature="e#188#189#0" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
@@ -90,10 +73,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Prowler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+              <folding>
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <folding>
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="408">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,13 +156,14 @@
         <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character.java" />
         <option value="$PROJECT_DIR$/test/com/ocr/sylvain/CharacterTest.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/sylvain/askSomething.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Warrior.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Prowler.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java" />
         <option value="$PROJECT_DIR$/test/com/ocr/sylvain/ToolsTest.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Tools.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Game.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Warrior.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/sylvain/Character/Prowler.java" />
       </list>
     </option>
   </component>
@@ -241,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ToolsTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.ocr.sylvain.Main" />
       <module name="JeuDeCombatEpiqueReloaded" />
@@ -290,6 +300,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ToolsTest" />
         <item itemvalue="JUnit.ToolsTest.Given_GoodValue_When_AskSomethingIsRun_Then_ReturnCorrectResult" />
       </list>
@@ -369,7 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568188411530</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Méthode askStats ajouté dans Character pour l'initialisation des statistiques">
+      <created>1568189564939</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568189564939</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Méthode appearance qui génère le message d'apparition du personnage">
+      <created>1568189864145</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1568189864145</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -463,7 +488,9 @@
     <MESSAGE value="ToolsTest Créer" />
     <MESSAGE value="Création des tests pour bonne valeur, valeur haute valeur basse, et Text&#10;Mise au rouge des tests" />
     <MESSAGE value="Création de la méthode AskSomething et mise au vert des tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Création de la méthode AskSomething et mise au vert des tests" />
+    <MESSAGE value="Méthode askStats ajouté dans Character pour l'initialisation des statistiques" />
+    <MESSAGE value="Méthode appearance qui génère le message d'apparition du personnage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Méthode appearance qui génère le message d'apparition du personnage" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Plan.txt">
@@ -479,59 +506,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Prowler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/ocr/sylvain/CharacterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Warrior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -555,10 +533,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        <state relative-caret-position="493">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding>
             <element signature="e#246#247#0" expanded="true" />
             <element signature="e#273#274#0" expanded="true" />
@@ -572,6 +560,50 @@
             <element signature="e#517#518#0" expanded="true" />
             <element signature="e#554#555#0" expanded="true" />
             <element signature="e#590#591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Warrior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Character/Prowler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/sylvain/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
