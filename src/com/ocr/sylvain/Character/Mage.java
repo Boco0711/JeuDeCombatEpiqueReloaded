@@ -22,7 +22,6 @@ public class Mage extends Character{
     @Override
     public void specialAttack(Character character){
         int healing = this.getIntelligence() * 2;
-        System.out.println(this.getName() + " utilise Soin et gagne " + healing + " en vitalité");
         this.gainHp(healing);
     }
 }

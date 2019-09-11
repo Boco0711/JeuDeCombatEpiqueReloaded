@@ -54,9 +54,10 @@ public class Character {
     }
 
     protected void gainHp(int gain) {
+        if (this.vitality + gain > this.level * 5)
+            gain = this.level*5 - this.vitality;
+        System.out.println(this.getName() + " utilise Soin et gagne " + gain + " en vitalité");
         this.vitality += gain;
-        if (this.vitality > this.level * 5)
-            this.vitality = this.level *5;
     }
 
     public String getName() {
